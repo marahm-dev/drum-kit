@@ -56,8 +56,9 @@ function playDrum(key) {
   // toLowerCase() makes it work even when Caps Lock is on.
   const lowerCaseKey = key.toLowerCase();
 
-  // Ignore keys that are not drums (like Shift, Enter or "x").
+  // Not a drum key? Tell the user, then stop.
   if (!(lowerCaseKey in soundFiles)) {
+    alert("Please press a valid key (w, a, s, d, j, k, l) to play the sound.");
     return;
   }
 

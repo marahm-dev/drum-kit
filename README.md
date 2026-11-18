@@ -23,7 +23,7 @@ A small browser drum kit built with plain HTML, CSS and JavaScript. Click a drum
 
 ## Live demo
 
-[Play the Drum Kit](https://YOUR-USERNAME.github.io/drum-kit/)
+[Play the Drum Kit](https://marahm-dev.github.io/drum-kit/)
 
 ## How to run
 
